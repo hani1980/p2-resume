@@ -1,5 +1,81 @@
 /* Your Website Styles */
+body{
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
 
+h1 {
+	font-weight: lighter;
+	font-size: 2.5em;
+	margin: 0;
+	color: #E6E9BE;
+	background: #000000;
+	width: 300px;
+	padding: 0 0 10px 20px;
+	border-radius:0  20px 0 20px;
+	box-shadow: 5px 5px 5px #E6E9BE
+}
+
+
+h3 {
+	margin: 10px 0 0 10px;
+}
+
+
+ /* Header */
+.head {
+	background: #FF6347;
+	height: 200px;
+	padding: 0 0 25px 0;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black
+}
+
+/* Visual */
+.Visual{
+	background: #5EB03B;
+	height: 200px;
+	border-radius: 20px;
+	padding: 0 0 25px 0;
+	box-shadow: 5px 5px 5px black
+}
+
+.Visual p{
+	padding: 10px;
+}
+
+/* Education */
+.edu {
+	background: #20B2AA;
+	height: 200px;
+	border-radius: 20px;
+	padding: 0 0 25px 0;
+	box-shadow: 5px 5px 5px black
+}
+
+.Skill {
+	background: royalblue ;
+	height: 200px;
+	border-radius: 20px;
+	padding: 0 0 25px 0;
+	box-shadow: 5px 5px 5px black
+}
+/***************
+	Hover States 
+***************/
+
+#email a:hover {
+	background: url("../img/email.png") no-repeat left;
+}
+
+#Mobile a:hover {
+	background: url("../img/Mobile.png") no-repeat left ;
+}
+a:hover{
+	font-weight: bold;
+}
 
 /* Show Grid */
 .showgrid {
